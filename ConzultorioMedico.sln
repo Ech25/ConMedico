@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConzultorioMedico", "ConzultorioMedico\ConzultorioMedico\ConzultorioMedico.csproj", "{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConzultorioMedico.Client", "ConzultorioMedico\ConzultorioMedico.Client\ConzultorioMedico.Client.csproj", "{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3AC6CF-B71F-4332-B147-B007CD91D126}
+	EndGlobalSection
+EndGlobal
