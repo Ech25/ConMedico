@@ -25,6 +25,7 @@ namespace ConzultorioMedico.Services
         public async Task<Cita> AgendarCita(Cita cita)
         {
             var respuesta = context.Cita.Add(cita);
+            await context.SaveChangesAsync();
             return cita;
         }
     }
