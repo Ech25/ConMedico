@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConzultorioMedico", "ConzultorioMedico\ConzultorioMedico\ConzultorioMedico.csproj", "{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConzultorioMedico", "ConzultorioMedico\ConzultorioMedico\ConzultorioMedico.csproj", "{7DA12695-2F3F-4034-BEF9-B6D2C1076A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConzultorioMedico.Client", "ConzultorioMedico\ConzultorioMedico.Client\ConzultorioMedico.Client.csproj", "{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConzultorioMedico.Client", "ConzultorioMedico\ConzultorioMedico.Client\ConzultorioMedico.Client.csproj", "{6E42E2D3-9FD2-44CB-A66C-615A87B649ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

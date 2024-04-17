@@ -1,0 +1,50 @@
+﻿@page "/agendar"
+@using ConzultorioMedico.Models
+@using ConzultorioMedico.Services
+@inject ICitas iCitas
+@rendermode InteractiveServer
+
+
+<h3>GenerarCita</h3>
+<div class="card">
+    <div class="card-body">
+        <EditForm Model="cita" OnValidSubmit="Registro">
+        <select @bind="cita.PacienteID">
+            @foreach (var paciente in pacientes)
+            {
+                <option value="paciente.ID">paciente.Name</option>
+            }
+            
+        </select>
+        <form>
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form1Example1" class="form-control" @bind="cita.FechaHora" />
+                <label class="form-label" for="form1Example1">fecha y hora</label>
+            </div>
+
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form1Example1" class="form-control" @bind="cita.Ovserbacion" />
+                    <label class="form-label" for="form1Example1">Observacion</label>
+                </div>
+
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block">Sign in</button>
+        </form>
+        </EditForm>
+    </div>
+
+</div>
+@code {
+    List<Paciente> pacientes = new List<Paciente>();
+    Cita cita = new Cita;
+    protected override async OnInitializedAsync()
+    {
+        pacientes = await iCitas.Pacientes();
+    }
+
+    async void Registro()
+    {
+        var respuesta = await iCitas.AgendarCita(cita);
+    }
+}
